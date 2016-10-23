@@ -1,6 +1,9 @@
 {
   "name": "blogstar",
   "version": "1.0.0",
+  "engines": {
+    "node": "4.6.0"
+  },
   "scripts": {
     "dev": "webpack-dev-server --config webpack-dev-server.config.js --progress --inline --colors",
     "postinstall": "webpack --config webpack-production.config.js --progress --colors",
