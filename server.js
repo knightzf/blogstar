@@ -3,7 +3,7 @@
 
 // To deploy the project, it requires package.json to install the Modules
 // so usually just upload everything to production Server
-// can choose to create bundle file on prod server 
+// can choose to create bundle file on prod server
 const express = require('express');
 const path = require('path');
 const port = process.env.PORT || 8080;
@@ -16,4 +16,4 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port);
-console.log('Server started');
+console.log('Server started at ' + port);
