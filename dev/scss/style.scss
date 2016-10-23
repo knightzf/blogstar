@@ -1,0 +1,102 @@
+.logo_cls {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 30px;
+}
+
+.banner_cls {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  height: 80px;
+}
+
+.left_side_cls {
+  margin-right: 3%;
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+}
+
+.right_side_cls {
+  margin-right: 3%;
+  width: 74%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+}
+
+.search_div_cls {
+    float: left;
+    width: 70%;
+    display: inline-block;
+}
+
+.search_input_cls {
+  display: inline-block;
+  width: 70%;
+  margin-top: 8px;
+  padding-top: 9px;
+  padding-right: 12px;
+  padding-bottom: 9px;
+}
+
+.search_btn_cls {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.setting_div_cls {
+  display: inline-block;
+  width: 30%;
+}
+
+.sign_btn_cls {
+  display: inline-block;
+  margin-top: 15px;
+  float: right;
+}
+
+.setting_btn_cls {
+  display: inline-block;
+  margin-top: 15px;
+  float: right;
+}
+
+.subscription_name_cls {
+  display: inline-block;
+  float: none;
+}
+
+.subscription_count_cls {
+  display: inline-block;
+  float: right;
+}
+
+.dum_div_cls {
+  height: 70px;
+}
+
+.section_heading_cls {
+  color: #ac0e3a;
+  font-size: 12px;
+}
+
+.section_title_cls {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.subscription_title_cls {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.topic_preview_cls {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-left: 2px;
+}
