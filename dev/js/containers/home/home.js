@@ -1,6 +1,7 @@
 import React from 'react';
 //import UserList from '../containers/user-list';
 //import UserDetails from '../containers/user-detail';
+import RaisedButton from 'material-ui/RaisedButton';
 require('../../../scss/style.scss');
 import logo_img from '../../../res/img/logo.png'
 
@@ -13,14 +14,12 @@ const Home = () => (
   </div>
   <div className="right_side_cls">
     <div className="search_div_cls">
-      <form>
         <input className="search_input_cls" name="search" placeholder="Search" type="text" />
-        <input className="search_btn_cls" type="submit" value="Submit" />
-      </form>
+        <RaisedButton label="Search" />
     </div>
     <div className="setting_div_cls">
-      <input className="sign_btn_cls" type="submit" value="Sign In" />
-      <input className="setting_btn_cls" type="submit" value="Settings" />
+      <RaisedButton label="Sign In" className="setting_btn_cls"/>
+      <RaisedButton label="Settings" className="setting_btn_cls"/>
     </div>
   </div>
 </div>

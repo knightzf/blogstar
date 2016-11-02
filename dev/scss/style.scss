@@ -1,15 +1,8 @@
-.logo_cls {
-  margin-top: 7px;
-  margin-bottom: 7px;
-  font-family: 'Changa One', Impact, sans-serif;
-  font-size: 30px;
-}
-
 .banner_cls {
   position: relative;
   top: 0px;
   bottom: 0px;
-  height: 80px;
+  height: 60px;
 }
 
 .left_side_cls {
@@ -20,9 +13,16 @@
   display: inline-block;
 }
 
+.logo_cls {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-family: 'Changa One', Impact, sans-serif;
+  font-size: 30px;
+}
+
 .right_side_cls {
-  margin-right: 3%;
-  width: 74%;
+  margin-right: 1%;
+  width: 76%;
   height: 100%;
   float: left;
   display: inline-block;
@@ -32,36 +32,26 @@
     float: left;
     width: 70%;
     display: inline-block;
+    margin-top: 1%;
 }
 
 .search_input_cls {
   display: inline-block;
   width: 70%;
-  margin-top: 8px;
   padding-top: 9px;
   padding-right: 12px;
   padding-bottom: 9px;
 }
 
-.search_btn_cls {
-  display: inline-block;
-  margin-top: 8px;
-}
-
 .setting_div_cls {
   display: inline-block;
   width: 30%;
-}
-
-.sign_btn_cls {
-  display: inline-block;
-  margin-top: 15px;
-  float: right;
+  margin-top: 1%;
 }
 
 .setting_btn_cls {
+  margin-right: 2%;
   display: inline-block;
-  margin-top: 15px;
   float: right;
 }
 
