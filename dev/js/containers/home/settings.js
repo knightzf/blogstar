@@ -8,11 +8,19 @@ class Settings extends Component {
   render() {
     return (
       <div className="setting_div_cls">
-        <RaisedButton label="Sign In" className="setting_btn_cls"/>
-        <RaisedButton label="Settings" className="setting_btn_cls"/>
+        {this.props.userinfo.loggedIn ?
+            null
+            : <RaisedButton label="Sign In" className="setting_btn_cls" /> }
+        <RaisedButton label="Settings" className="setting_btn_cls" />
       </div>
     );
   }
 }
 
-export default Settings;
+function mapStateToProps(state) {
+    return {
+        userinfo: state.userinfo
+    };
+}
+
+export default connect(mapStateToProps)(Settings);

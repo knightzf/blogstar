@@ -5,8 +5,8 @@ import {Provider} from 'react-redux';
 import {createStore, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
 import promise from 'redux-promise';
-/*import createLogger from 'redux-logger';
-import allReducers from './reducers';*/
+import createLogger from 'redux-logger';
+import allReducers from './reducers';
 import Home from './containers/home/home';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -15,22 +15,18 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 //http://www.material-ui.com/#/get-started/installation
 injectTapEventPlugin();
 
-/*const logger = createLogger();
+
+const logger = createLogger();
 const store = createStore(
     allReducers,
     applyMiddleware(thunk, promise, logger)
 );
 
-ReactDOM.render(
-    <Provider store={store}>
-        <App />
-    </Provider>,
-    document.getElementById('root')
-);*/
-
 const App = () => (
   <MuiThemeProvider>
-    <Home />
+    <Provider store={store}>
+      <Home />
+    </Provider>
   </MuiThemeProvider>
 );
 
