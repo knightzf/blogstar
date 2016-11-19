@@ -6,7 +6,7 @@ require('../../../scss/style.scss');
 
 class Navigation extends Component {
   render() {
-    var iconstyle = {padding: 0};
+    var style = {padding: 0};
     return (
       <div className="left_side_cls">
       <Table style={style}>
