@@ -29,10 +29,10 @@
 }
 
 .search_div_cls {
-    float: left;
-    width: 70%;
-    display: inline-block;
-    margin-top: 1%;
+  float: left;
+  width: 70%;
+  display: inline-block;
+  margin-top: 1%;
 }
 
 .search_input_cls {
@@ -53,6 +53,22 @@
   margin-right: 2%;
   display: inline-block;
   float: right;
+}
+
+.body_cls {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+}
+
+.icon_cls {
+  width: 20%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav_table_cls {
+  padding: 0px
 }
 
 .subscription_name_cls {
