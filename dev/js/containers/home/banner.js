@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 require('../../../scss/style.scss');
-import logo_img from '../../../res/img/logo.png'
 import Settings from './settings'
 
 class Banner extends Component {
@@ -10,7 +9,7 @@ class Banner extends Component {
       <div className="banner_cls">
         <div className="left_side_cls">
           <div className="logo_cls">
-            <img src={logo_img} />
+            <img src={require("../../../res/img/logo.png")} />
           </div>
         </div>
         <div className="right_side_cls">

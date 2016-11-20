@@ -3,7 +3,6 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import Divider from 'material-ui/Divider';
 import Avatar from 'material-ui/Avatar';
-import panda_img from '../../../res/img/panda.png'
 require('../../../scss/style.scss');
 
 class Navigation extends Component {
@@ -48,7 +47,7 @@ class Navigation extends Component {
     var subscriptionData = [
       {
         id: 1,
-        avatar: panda_img,
+        avatar: require("../../../res/img/panda.png"),
         blogName: "Love Live",
         newPosts: 2
       }
