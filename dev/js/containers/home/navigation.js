@@ -48,7 +48,7 @@ class Navigation extends Component {
     var subscriptionData = [
       {
         id: 1,
-        avatar: "panda.png",
+        avatar: panda_img,
         blogName: "Love Live",
         newPosts: 2
       }
@@ -58,7 +58,7 @@ class Navigation extends Component {
       return (
         <tr className="nav_row_cls" key={row.id}>
           <td className="icon_cell_cls">
-            <Avatar size={24} src={panda_img} />
+            <Avatar size={24} src={row.avatar} />
           </td>
           <td className="label_cell_cls">
             {row.blogName}
