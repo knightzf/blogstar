@@ -16,8 +16,6 @@
 .logo_cls {
   margin-top: 7px;
   margin-bottom: 7px;
-  font-family: 'Changa One', Impact, sans-serif;
-  font-size: 30px;
 }
 
 .right_side_cls {
@@ -68,41 +66,49 @@
 }
 
 .nav_table_cls {
-  padding: 0px
+  width: 100%;
 }
 
-.subscription_name_cls {
-  display: inline-block;
-  float: none;
+.nav_row_cls
+{
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 30px;
 }
 
-.subscription_count_cls {
-  display: inline-block;
-  float: right;
+.icon_cell_cls {
+  text-align: right;
+  padding-right: 2%;
+  width: 20%;
 }
 
-.dum_div_cls {
-  height: 70px;
+.label_cell_cls {
+  text-align: left;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  width: 70%;
+  font-family: arial;
+  font-size: 14px;
 }
 
-.section_heading_cls {
-  color: #ac0e3a;
-  font-size: 12px;
+.count_cell_cls {
+  text-align: right;
+  padding-left: 2%;
+  width: 10%;
+  padding-bottom: 5%;
+  font-family: arial;
+  font-size: 14px;
 }
 
-.section_title_cls {
-  font-size: 16px;
-  font-weight: 700;
+.lib_div_cls {
+  font-family: arial;
+  font-size: 14px;
+  color: red;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
-.subscription_title_cls {
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.topic_preview_cls {
-  margin-top: 3px;
-  margin-bottom: 3px;
-  padding-left: 2px;
+.div_cls {
+  padding-top: 5px;
+  padding-bottom: 6px;
 }
