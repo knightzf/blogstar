@@ -3,6 +3,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import Divider from 'material-ui/Divider';
 import Avatar from 'material-ui/Avatar';
+import panda_img from '../../../res/img/panda.png'
 require('../../../scss/style.scss');
 
 class Navigation extends Component {
@@ -57,7 +58,7 @@ class Navigation extends Component {
       return (
         <tr className="nav_row_cls" key={row.id}>
           <td className="icon_cell_cls">
-            <Avatar size={24} src={row.avatar} />
+            <Avatar size={24} src={panda_img} />
           </td>
           <td className="label_cell_cls">
             {row.blogName}
